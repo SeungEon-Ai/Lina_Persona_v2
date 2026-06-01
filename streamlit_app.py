@@ -164,7 +164,7 @@ selected_id = st.session_state.get("selected_id", None)
 
 if not selected_id:
     st.markdown(f"## {PAGE_TITLE}")
-    st.markdown("암보험·치아보험에 관심 있는 소비자 페르소나와 대화하며 니즈·고민을 탐색하세요.")
+    st.markdown("LINA Life Insurance X Young Makers (TEAM 5)")
     st.divider()
 
     cols = st.columns(4)
