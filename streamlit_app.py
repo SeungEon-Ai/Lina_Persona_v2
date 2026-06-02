@@ -8,7 +8,7 @@ import streamlit as st
 from openai import OpenAI
 
 # ── 설정 ──────────────────────────────────────────────────────────────────────
-PAGE_TITLE = "라이나생명 AI 페르소나 Agnet V2"
+PAGE_TITLE = "라이나생명 AI 페르소나 AGENT v2"
 JSON_PATH  = os.path.join(os.path.dirname(__file__), "personas_insurance.json")
 MODEL      = "gpt-4o-mini"
 
