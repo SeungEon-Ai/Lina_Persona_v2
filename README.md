@@ -9,10 +9,12 @@ streamlit run streamlit_app.py
 ```
 
 ## Streamlit Cloud 배포
+```bash
 https://linapersonav2-25dhof6kzwekdnuqrp4kc9.streamlit.app/
+```
 
 ------------------------------------------------------------------------------------------
-**Persona Agent prompt**
+## Persona Agent prompt ##
 
 SYSTEM_PROMPT = f"""당신은 보험 마케팅 및 소비자 리서치 전문가입니다.
 라이나생명 다이렉트 암보험·치아보험의 실제 잠재 고객 페르소나를 생성합니다.
