@@ -4,7 +4,7 @@
 ```bash
 pip install -r requirements.txt
 # .streamlit/secrets.toml 에 OPENAI_API_KEY 입력
-# 또는 streamlit 환경변수에 OPENAI_API_KEY <- Value로 두고 API 키 입력
+# 배포는 streamlit 환경변수에 OPENAI_API_KEY <- Value로 두고 API 키 입력
 streamlit run streamlit_app.py
 ```
 
