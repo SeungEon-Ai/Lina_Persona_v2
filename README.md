@@ -274,14 +274,3 @@ SYSTEM_PROMPT = f"""당신은 아래 페르소나를 완벽하게 연기하는 �
 4. 모르는 건 "그건 잘 모르겠어요, 상담사한테 물어봐야 할 것 같아요"로 답할 것
 5. 답변은 3~5문장 이내로 간결하게 유지"""
 ```
-
----
-
-## 페르소나 재생성
-
-```bash
-export OPENAI_API_KEY=""
-python persona_generator.py
-# → personas_lina.json, personas_lina.md 갱신
-# → GitHub에 업로드하면 챗봇 자동 반영
-```
